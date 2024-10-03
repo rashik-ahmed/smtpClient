@@ -22,10 +22,10 @@ def smtp_client(port=1025, mailserver='127.0.0.1'):
     send_command(clientSocket, 'HELO Alice\r\n', '250')
 
     # Send MAIL FROM command
-    send_command(clientSocket, 'MAIL FROM:<your_email@example.com>\r\n', '250')
+    send_command(clientSocket, 'MAIL FROM:<rashikahmed2002@gmail.com>\r\n', '250')
 
     # Send RCPT TO command
-    send_command(clientSocket, 'RCPT TO:<recipient_email@example.com>\r\n', '250')
+    send_command(clientSocket, 'RCPT TO:<ra3197@nyu.edu>\r\n', '250')
 
     # Send DATA command
     send_command(clientSocket, 'DATA\r\n', '354')
